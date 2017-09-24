@@ -12,6 +12,7 @@
 		05D0374E1F76B5B900FB1B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D0374C1F76B5B900FB1B42 /* Main.storyboard */; };
 		05D037501F76B5B900FB1B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D0374F1F76B5B900FB1B42 /* Assets.xcassets */; };
 		05D037531F76B5B900FB1B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D037511F76B5B900FB1B42 /* LaunchScreen.storyboard */; };
+		05D0375C1F76B5CA00FB1B42 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D0375B1F76B5CA00FB1B42 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		05D0374F1F76B5B900FB1B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05D037521F76B5B900FB1B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D037541F76B5B900FB1B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D0375B1F76B5CA00FB1B42 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D0375C1F76B5CA00FB1B42 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				05D037471F76B5B900FB1B42 /* SimpleGeoCodeTest */,
 				05D037461F76B5B900FB1B42 /* Products */,
+				05D0375A1F76B5CA00FB1B42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				05D037541F76B5B900FB1B42 /* Info.plist */,
 			);
 			path = SimpleGeoCodeTest;
+			sourceTree = "<group>";
+		};
+		05D0375A1F76B5CA00FB1B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D0375B1F76B5CA00FB1B42 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
